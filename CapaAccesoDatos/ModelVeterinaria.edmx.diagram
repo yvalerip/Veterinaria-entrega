@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7118c2cca0564e69b535a264482e4cfd" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Bodega" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Compra" Width="1.5" PointX="5.25" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Configuracion" Width="1.5" PointX="10.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Detalle_Compra" Width="1.5" PointX="7.5" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Detalle_Venta" Width="1.5" PointX="10.5" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Factura" Width="1.5" PointX="13" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Laboratorio" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Lote" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Presentacion" Width="1.5" PointX="3" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Producto" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Producto_Bodega" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Proveedor" Width="1.5" PointX="3" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.sysdiagrams" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Tipo" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Tipo_de_Pago" Width="1.5" PointX="10.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Unidad_Medida" Width="1.5" PointX="3" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Usuario" Width="1.5" PointX="6" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Venta" Width="1.5" PointX="8.25" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_Producto_Bodega_Bodega" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Compra_Proveedor" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Detalle_Compra_Compra" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Detalle_Compra_Producto_Bodega" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Detalle_Venta_Producto_Bodega" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Detalle_Venta_Venta" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Factura_Tipo_de_Pago" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Producto_Bodega_Laboratorio" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Producto_Bodega_Lote" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Producto_Bodega_Presentacion" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Producto_Bodega_Producto" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Producto_Tipo" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Producto_Bodega_Unidad_Medida" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Venta_Usuario" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
